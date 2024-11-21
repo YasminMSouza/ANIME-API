@@ -36,7 +36,7 @@ A API pega esses dados do MyAnimeList e devolve algo como:
 ## Animes com API Jikan
 Este projeto é uma demonstração simples que busca e exibe informações sobre animes usando a API Jikan. Ele foi desenvolvido com Next.js e tem como objetivo mostrar como obter dados de uma API externa e exibi-los em uma página de forma clara e organizada.
 
-:shipit: ### Funcionalidades
+### Funcionalidades
 
 - Mostra informações de animes como:
 - Título
