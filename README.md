@@ -22,14 +22,14 @@ Você pede informações do anime com o ID 37999.
 A API pega esses dados do MyAnimeList e devolve algo como:
 json
 
-'''
+```
 {
   "title": "Demon Slayer",
   "episodes": 26,
   "status": "Finished",
   "rating": "PG-13"
 }
-'''
+```
 
 
 
