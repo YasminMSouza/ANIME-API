@@ -1,6 +1,6 @@
 # ANIME-API
 
-**API** é a sigla para Application Programming Interface (ou Interface de Programação de Aplicações, em português). 
+💻 **API** é a sigla para Application Programming Interface (ou Interface de Programação de Aplicações, em português). 
 
 Uma API é como um "ponte" entre dois sistemas diferentes. Vamos usar um exemplo:
 
@@ -36,7 +36,7 @@ A API pega esses dados do MyAnimeList e devolve algo como:
 ## Animes com API Jikan
 Este projeto é uma demonstração simples que busca e exibe informações sobre animes usando a API Jikan. Ele foi desenvolvido com Next.js e tem como objetivo mostrar como obter dados de uma API externa e exibi-los em uma página de forma clara e organizada.
 
-### Funcionalidades
+:shipit: ### Funcionalidades
 
 - Mostra informações de animes como:
 - Título
@@ -48,7 +48,7 @@ Este projeto é uma demonstração simples que busca e exibe informações sobre
 - Interface básica, mas funcional, para exibir os animes.
 
 
-## O que está acontecendo no código?
+📃 ## O que está acontecendo no código?
 IDs dos Animes
 No código, escolhemos alguns animes que queremos buscar, usando os IDs deles:
 
