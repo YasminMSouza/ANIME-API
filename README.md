@@ -1,7 +1,8 @@
 # ANIME-API
-API é a sigla para Application Programming Interface (ou Interface de Programação de Aplicações, em português). Mas calma, vamos simplificar! 😊
 
-Uma API é como um "garçom" entre dois sistemas diferentes. Vamos usar um exemplo:
+*API* é a sigla para Application Programming Interface (ou Interface de Programação de Aplicações, em português). 
+
+Uma API é como um "ponte" entre dois sistemas diferentes. Vamos usar um exemplo:
 
 Imagine o seguinte:
 Você vai a um restaurante e faz um pedido ao garçom. O garçom pega o seu pedido, leva para a cozinha e depois traz a comida pronta para você.
@@ -20,7 +21,8 @@ Por exemplo:
 
 Você pede informações do anime com o ID 37999.
 A API pega esses dados do MyAnimeList e devolve algo como:
-json
+
+###json
 
 ```
 {
@@ -31,12 +33,47 @@ json
 }
 ```
 
+##Animes com API Jikan
+Este projeto é uma demonstração simples que busca e exibe informações sobre animes usando a API Jikan. Ele foi desenvolvido com Next.js e tem como objetivo mostrar como obter dados de uma API externa e exibi-los em uma página de forma clara e organizada.
+
+###Funcionalidades
+
+- Mostra informações de animes como:
+- Título
+- Número de episódios
+- Status (se está finalizado ou em andamento)
+- Classificação indicativa
+- Imagem de capa do anime
+- Busca os dados automaticamente usando a API do Jikan.
+- Interface básica, mas funcional, para exibir os animes.
 
 
+## O que está acontecendo no código?
+IDs dos Animes
+No código, escolhemos alguns animes que queremos buscar, usando os IDs deles:
 
+javascript
+Copiar código
+const animeIds = [37999, 5114, 40028];
+Buscando os dados
+O programa vai até a API (como se fosse buscar informações na internet) e pega as informações dos animes. Ele faz isso para todos os IDs que indicamos.
 
+Mostrando na tela
+Depois que os dados chegam, eles são organizados e mostrados de forma simples. Para cada anime, aparece:
 
+- O título
+- A quantidade de episódios
+- O status (se está completo ou não)
+- A classificação indicativa
+- Uma imagem bonitona do anime.
 
+### Conclusão
+
+APIs são como atalhos que ajudam diferentes sistemas a conversar entre si. Elas tornam tudo mais simples, porque você não precisa reinventar a roda para buscar ou usar dados de outras plataformas. No nosso projeto, usamos a API Jikan para trazer informações sobre animes diretamente do MyAnimeList, o que facilitou muito a criação da aplicação.
+
+Saber usar uma API é super útil, porque abre muitas possibilidades. Dá pra conectar seu projeto com vários serviços e oferecer coisas legais para os usuários, como fizemos aqui. É só pedir os dados, organizar e pronto! 🚀
+
+  
 ### :family: Integrantes do Projeto
 
 
