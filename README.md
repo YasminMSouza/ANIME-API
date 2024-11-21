@@ -1,28 +1,28 @@
 # ANIME-API
 
-*API* é a sigla para Application Programming Interface (ou Interface de Programação de Aplicações, em português). 
+**API** é a sigla para Application Programming Interface (ou Interface de Programação de Aplicações, em português). 
 
 Uma API é como um "ponte" entre dois sistemas diferentes. Vamos usar um exemplo:
 
-Imagine o seguinte:
+**Imagine o seguinte:**
 Você vai a um restaurante e faz um pedido ao garçom. O garçom pega o seu pedido, leva para a cozinha e depois traz a comida pronta para você.
 
-No mundo da programação:
+**No mundo da programação:**
 
 Você é o programa que quer algum dado ou serviço (por exemplo, informações sobre animes).
 O garçom é a API, que recebe sua solicitação e sabe como pedir as coisas para o sistema que tem as informações.
 A cozinha é o banco de dados ou sistema que realmente guarda os dados.
 A API conecta esses dois lados: o seu programa (cliente) e o sistema que fornece os dados (servidor).
 
-No caso do nosso projeto:
+**No caso do nosso projeto:**
 A API Jikan é como o "garçom" que fala com o MyAnimeList (um site gigante sobre animes). Quando você pede os detalhes de um anime, ela vai lá no MyAnimeList, pega as informações e traz de volta para o seu aplicativo.
 
-Por exemplo:
+**Por exemplo:**
 
 Você pede informações do anime com o ID 37999.
 A API pega esses dados do MyAnimeList e devolve algo como:
 
-###json
+### json
 
 ```
 {
@@ -33,10 +33,10 @@ A API pega esses dados do MyAnimeList e devolve algo como:
 }
 ```
 
-##Animes com API Jikan
+## Animes com API Jikan
 Este projeto é uma demonstração simples que busca e exibe informações sobre animes usando a API Jikan. Ele foi desenvolvido com Next.js e tem como objetivo mostrar como obter dados de uma API externa e exibi-los em uma página de forma clara e organizada.
 
-###Funcionalidades
+### Funcionalidades
 
 - Mostra informações de animes como:
 - Título
@@ -52,13 +52,16 @@ Este projeto é uma demonstração simples que busca e exibe informações sobre
 IDs dos Animes
 No código, escolhemos alguns animes que queremos buscar, usando os IDs deles:
 
+```
 javascript
-Copiar código
+
 const animeIds = [37999, 5114, 40028];
-Buscando os dados
+```
+
+**Buscando os dados**
 O programa vai até a API (como se fosse buscar informações na internet) e pega as informações dos animes. Ele faz isso para todos os IDs que indicamos.
 
-Mostrando na tela
+**Mostrando na tela**
 Depois que os dados chegam, eles são organizados e mostrados de forma simples. Para cada anime, aparece:
 
 - O título
